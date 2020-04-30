@@ -30,7 +30,7 @@ public class MatrixSearch {
                     if (i > 0) {
                         System.out.println("Top number: " + matrix[i-1][j]);
                     }
-                    if (i < matrix.length) {
+                    if (i < matrix.length-1) {
                         System.out.println("Down number: " + matrix[i+1][j]);
                     }
                     if (j > 0) {
